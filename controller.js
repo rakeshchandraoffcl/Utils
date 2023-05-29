@@ -1,7 +1,7 @@
 const PAGINATION_LIMIT = 10;
 
 /**
- * Search text messages
+ * Search text messages by title,time and usage
  * @param Request      req
  * @param Response     res
  * @param NextFunction next
