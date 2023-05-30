@@ -1,6 +1,18 @@
 import fs from 'fs';
 import { CustomDate } from './dateManager.js';
 
+// File Extensions
+const FILE_TYPES = {
+	jpg: 'image/jpg',
+	jpeg: 'image/jpeg',
+	png: 'image/png',
+	pdf: 'application/pdf',
+	video: 'video/mp4',
+	xls: 'application/vnd.ms-excel',
+	xlsx: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+	docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+};
+
 /**
  * File size in bytes
  * @param  {Number} actualSize size in mb
